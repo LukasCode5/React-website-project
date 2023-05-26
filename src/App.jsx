@@ -1,7 +1,12 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 
 function App() {
-  return <h1>App</h1>;
+  return (
+    <div className='App'>
+      <Footer />;
+    </div>
+  );
 }
 
 export default App;
